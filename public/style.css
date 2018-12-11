@@ -1,3 +1,102 @@
+body {
+  background: #eaeded;
+}
+
+footer {
+  margin: 0 -8px !important;
+}
+
+.css-g36haq,
+[data-css-g36haq] {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 24px;
+  font-family: "lucida grande", tahoma, verdana, sans-serif;
+  color: black;
+  border-radius: 20px;
+}
+
+.css-1s63okr,
+[data-css-1s63okr] {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+}
+
+.css-19344xa,
+[data-css-19344xa] {
+  width: 100%;
+  padding-right: 24px;
+  min-width: 25%;
+}
+
+.qr-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+  width: 374px;
+  margin: 0 40px;
+  flex-shrink: 0;
+  flex: 1 30%;
+}
+
+#pageContent {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#127f90+0,eaeded+100 */
+  background: #127f90; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #127f90 0%,
+    #eaeded 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #127f90 0%,
+    #eaeded 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #127f90 0%,
+    #eaeded 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#127f90', endColorstr='#eaeded',GradientType=0 ); /* IE6-9 */
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  min-height: 700px;
+}
+
+.contest {
+  flex: 2 50%;
+  justify-content: center;
+}
+
+.contest > p {
+  font-family: "lucida grande", tahoma, verdana, sans-serif;
+  color: white;
+  margin-right: 40px;
+  margin-top: 0;
+}
+
+.img {
+  flex: 12;
+}
+
+.smile {
+  display: block;
+  margin: 0 auto;
+}
+
 #navbar.nav-bluebeacon {
   background-color: #232f3e;
 }
@@ -1333,7 +1432,6 @@ a.nav-a:visited {
 }
 #nav-logo .nav-logo-ext {
   float: left;
-  display: none;
 }
 #nav-logo .nav-logo-locale {
   float: left;
